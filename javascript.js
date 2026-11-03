@@ -49,7 +49,7 @@ $(document).ready(function () {
         let x = event.pageX;
         let y = event.pageY;
 
-        $("#coordinates").text("Mouse X: " + x + ", Y: " + y);
+        $("body").text("Mouse X: " + x + ", Y: " + y);
     });
 
 });
