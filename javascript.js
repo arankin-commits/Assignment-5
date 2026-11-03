@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         let name = $(this).data("name");
 
-        $("#out").text("out "name + " ");
+        $("#out").text("out " + name + " ");
 
         $(this).css("opacity", 1.0);
 
