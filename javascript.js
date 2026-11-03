@@ -41,7 +41,7 @@ $(document).ready(function () {
             .show();
     });
 
-    $("body").on("mousemove", function (event) {
+    $("#icon-container").on("mousemove", function (event) {
 
         let x = event.pageX;
         let y = event.pageY;
