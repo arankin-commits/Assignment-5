@@ -5,7 +5,9 @@ $(document).ready(function () {
 
         let name = $(this).data("name");
 
-        $("#in").text("in " + name + " ");
+        $("#in").text("In: " + name + " ");
+        $("#out").text("Out: ");
+
 
         $(this).css("opacity", 0.5);
     });
@@ -14,7 +16,8 @@ $(document).ready(function () {
 
         let name = $(this).data("name");
 
-        $("#out").text("out " + name + " ");
+        $("#out").text("Out: " + name + " ");
+        $("#in").text("In: ");
 
         $(this).css("opacity", 1.0);
 
