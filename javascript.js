@@ -5,7 +5,7 @@ $(document).ready(function () {
 
         let name = $(this).data("name");
 
-        $("#in").append(name + " ");
+        $("#in").text(name + " ");
 
         $(this).css("opacity", 0.5);
     });
@@ -14,7 +14,7 @@ $(document).ready(function () {
 
         let name = $(this).data("name");
 
-        $("#out").append(name + " ");
+        $("#out").text(name + " ");
 
         $(this).css("opacity", 1.0);
 
